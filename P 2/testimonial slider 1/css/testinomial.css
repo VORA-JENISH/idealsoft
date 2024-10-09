@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.testi-slider{
+    padding: 20px 50px;
+    background-color: #ffffff;
+}
+
+.box{
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.box img{
+    height: 100px;
+    width: 100px;
+}
+.pro-name{
+    margin: 10px 0;
+}
+.pro-content{
+    text-align: center;
+    color: #999;
+}
+
+.testi-slider .owl-stage-outer .owl-stage{
+    height: 400px;
+}
+
+.testi-slider .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-dots .owl-dot span{
+    background-color: #565a61 !important;
+    border-radius: 50% !important;
+}
+.owl-dots{
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 0px !important;
+}
+.owl-dots .owl-dot.active span{
+    background-color: #034099 !important;
+}
+
+
+
